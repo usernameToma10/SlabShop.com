@@ -1,0 +1,1508 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+
+.Navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(19, 17, 17, 0.955);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.left{
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    margin-left: 2%;
+    align-items: center;
+}
+
+.left li {
+    height: 100%;
+    width: fit-content;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+.left li a{
+    height: 100%;
+    width: fit-content;
+    color: white;
+    font: icon;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.right{
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    margin-right: 2%;
+    align-items: center;
+}
+
+.right li {
+    height: 100%;
+    width: fit-content;
+    list-style: none;
+    text-decoration: none;
+}
+
+.right li a{
+    height: 100%;
+    width: fit-content;
+    color: white;
+    font: icon;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.Img1 , .Img2 {
+    display: flex;
+}
+
+.Navbar2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.left2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.slab{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    gap: 15px;
+    margin-left: 2%;
+
+}
+
+.slab img{
+    width: 40px;
+    height: 40px;   
+}
+
+.slab h2 {
+    font: icon;
+    font-size: 20px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    width: fit-content;
+}
+
+.locaImg{
+    display: flex;
+    align-items: center;
+}
+
+.location2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+    width: fit-content;
+}
+
+.location2 p{
+    font: icon;
+    font-size: 15px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 680px;
+}
+
+.search{
+    display: flex;
+    height: 40px;
+    position: relative;
+    width: 548px;
+}
+
+.center button{
+    width: 116px;
+    height: 38px;
+    padding: 8px 16px 8px 20px;
+    border-radius: 8px;
+    background-color: #52057B;
+    color: white;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 548px;
+}
+
+.searchImg{
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+
+.right2{
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    align-items: center;
+    gap: 25px;
+    margin-right: 2%;
+}
+.Icons{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.tex1{
+    font: icon;
+}
+
+.tex2{
+    font: icon;
+    color: green;
+}
+
+.profile p {
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar3{
+   width: 100%;
+   height: 48px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 15px;
+   border-top: solid 1px black;
+   border-bottom: solid 1px black;
+}
+
+.left3{
+    display: flex;
+    gap: 15px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.left3 li {
+    list-style: none;
+}
+
+.left3 a{
+    font: icon;
+    font-size: 12px;
+    color: black;
+}
+
+.right3{
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.right3 p{
+    font: icon;
+    color: black;
+    font-size: 12px;
+}
+
+.right3Img{
+    display: flex;
+}
+
+.banner{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.banner1{
+    margin-left: 2%;
+    display: flex;
+    justify-content: left;
+}
+
+.banner1 img , .banner2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner2{
+    margin-right: 2%;
+    display: flex;
+    justify-content: right;
+}
+
+
+.slider{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.wertilebi{
+    width: 50%;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.dot1{
+    width: 25px;
+    height: 10px;
+    border: 1px;
+    border-radius: 100px;
+    background:#52057B;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px;
+    border-radius: 100px;
+    background: #828282;
+
+}
+
+.Gadartva{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    margin-right: 3%;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.BackImg{
+    display: flex;
+}
+
+.back p{
+    font: icon;
+}
+
+.Next{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Next p{
+    color: #52057b;
+    font: icon;
+}
+
+.NextImg{
+    display: flex;
+}
+
+.container3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 25px;
+}
+
+.BillImg{
+    margin-left: 2%;
+    width: 322px;
+    height: 322px;
+}
+
+.BillImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.Sigup{
+    border: 5px solid;
+    width: 1000px;
+    margin-right: 2%;
+    /* height: 100%; */
+    border-radius: 10px;
+    border-color: #ccc;
+    height: fit-content;
+}
+
+.TopLine{
+    width: 100%;
+    border-bottom: solid;
+    border-color: #ccc;
+}
+
+.TopFirst{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.First{
+    font: icon;
+    font-size: 25px;
+}
+
+.TopSecond{
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px 20px 20px;
+    align-items: center;
+    font: icon;
+    font-size: 15px;
+}
+
+.balance{
+    color: #52057B;
+    font: icon;
+    font-size: 15px;
+}
+
+.Second button{
+    font: icon;
+    height: 35px;
+    width: 80px;
+    /* top: 0px; */
+    border-radius: 8px;
+    border: 1px solid rgba(226, 226, 226, 1);
+    /* display: flex; */
+    /* margin-right: 2%; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+.Topline2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.Code{
+    padding-left: 20px;
+    font: icon;
+}
+
+.Payment{
+    padding-right: 20px;
+    font: icon;
+}
+
+.SecondLine{
+    display: flex;
+    width: 100%;
+    /* gap: 5%; */
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FirstInput{
+    width: 40%;
+    padding-left: 20px;
+}
+
+.FirstInput input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.SecondInput{
+    width: 45%;
+    padding-right: 20px;
+}
+
+.SecondInput input[type="text"]{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.BottomLine button{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+    background: #52057B;
+    color: white;
+    gap: 15px;
+    font: icon;
+    border-radius: 8px;
+}
+
+.BottomLine{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.help{
+    margin-right: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.help p{
+    font: icon;
+    font-size: 14px;
+}
+
+.CenterLine{ 
+    width: 100%;
+}
+
+.category{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+  
+.flexbox{
+    width: 80px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+  
+.Top{
+    display: flex;
+    align-items: center;
+}
+  
+.botom{
+    text-align: center;
+    font: icon;
+    font-size: 15px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.TextCon{
+    font: icon;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2%;
+    font-size: 35px; 
+}
+
+.flexbox1 {
+    width: 80px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding-left: 2%;
+
+}
+
+.flexbox2 {
+    width: 80px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding-right: 2%;
+
+}
+
+.FlashSale{
+    width: 100%;
+    height: 486px;
+    background-color: #F9F9F9;
+    margin-top: 35px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.title h2{
+    font: icon;
+    font-size: 30px;
+}
+
+.time{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.time p {
+    font: icon;
+    font-size: 18px;
+}
+
+.timends{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.time1{
+    border-style: solid;
+    height: fit-content;
+    padding: 2px;
+    color: white;
+    border-color: #52057B;
+    background: #52057B;
+    border-radius: 5px;
+}
+
+.cards{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.card{
+    border: solid;
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 16px 0px;
+    border-color: #ccc;
+}
+
+.ImgCard{
+    width: 100%;
+    height: 100%;
+}
+
+.tite{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    font: icon;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.p{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.status{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.Dolar{
+    color: #828282;
+    margin-left: 15px;
+    font: icon;
+    display: flex;
+    gap: 5px;
+}
+
+.line{
+    border: solid;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 45px;
+    border-bottom: 0px;
+    border-color: #828282;
+    font: icon;
+}
+
+.p2{
+    margin-right: 15px;
+    border: solid;
+    padding: 4px;
+    border-radius: 5px;
+    background: #FF00001A;
+    border-color: #ff00001A;
+}
+
+.p2 p{
+    font: icon;
+    color: #FF0000;
+}
+
+.Status{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.loadbar{
+    width: 120px;
+    border: solid;
+    margin-left: 10px;
+    border-radius: 7px;
+    border-color: #F3F3F3;
+}
+
+.orangebar{
+    width: 50%;
+    background: orange;
+    height: 100%;
+    border: 1px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.sold{
+    padding-right: 15px;
+    font: icon;
+    font-size: 12px;
+    color: #828282;
+}
+
+.NewFeatures{
+    width: 100%;
+    margin-top: 60px;
+    height: 500px;
+}
+
+.top{
+    height: 245px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.text10{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.text10 p{
+    font: icon;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.btn{
+    border: solid;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: #52057B;
+    border-color: #52057B1A;
+    background: #52057B1A;
+    font: icon;
+}
+
+.cads{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.toptex{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}  
+
+.toptex p{
+    color: white;
+    font: icon; 
+}
+
+.cad-1{
+    width: 263px;
+    height: 111px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #BF5AE0 0%, #A811DA 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lastline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Product{
+    font: icon;
+    color: white;
+}
+
+.stock{
+    font: icon;
+    color: white;
+}
+
+.cad-2{
+    width: 263px;
+    height: 111px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(90deg, #06BEB6 0%, #48B1BF 100%);
+}
+
+.cad-3{
+    width: 263px;
+    height: 111px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(90deg, #F85032 0%, #E73827 100%);
+}
+
+.cad-4{
+    width: 263px;
+    height: 111px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(90deg, #FE8C00 0%, #F83600 100%);
+}
+
+.cad-5{
+    width: 263px;
+    height: 111px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+}
+
+.BottomCard{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.btCard-1{
+    width: 329px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #E2E2E2;
+    padding: 24px;
+}
+
+.btTopline{
+    display: flex;
+    justify-content: space-between;
+    width: 281px;
+    height: 46px;
+    gap: 11px;
+    font: icon;
+    align-items: center;
+}
+
+.blueLine{
+    border-left: solid;
+    border-color: #0052D4;
+    width: 4px;
+    height: 46px;
+}
+
+.btImage{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.btImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.distance{
+    border: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: #E2E2E2;
+}
+
+.btCard-2{
+    width: 329px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #E2E2E2;
+    padding: 24px;
+}
+
+.PinkLine{
+    border-left: solid;
+    border-color:#EC008C;
+    width: 4px;
+    height: 46px;
+}
+
+.btCard-3{
+    width: 329px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #E2E2E2;
+    padding: 24px;
+}
+
+.PurpleLine{
+    border-left: solid;
+    border-color:#892CDC;
+    width: 4px;
+    height: 46px;
+}
+
+.btCard-4{
+    width: 329px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #E2E2E2;
+    padding: 24px;
+}
+
+.Orange1Line{
+    border-left: solid;
+    border-color:#E73827;
+    width: 4px;
+    height: 46px;
+}
+
+.orangebar1{
+    width: 85%;
+    background: orange;
+    height: 100%;
+    border: 1px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.orangebar2{
+    width: 25%;
+    background: orange;
+    height: 100%;
+    border: 1px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.orangebar3{
+    width: 90%;
+    background: orange;
+    height: 100%;
+    border: 1px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.orangebar4{
+    width: 60%;
+    background: orange;
+    height: 100%;
+    border: 1px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
+.cadt-1{
+    width: 259px;
+    height: 367px;
+    border-radius: 8px;
+    border: solid;
+    border-color: #E2E2E2;
+    padding-bottom: 5px;
+}
+
+.contentcad-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.titlecad-1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.label p{
+    margin: 0;
+}
+
+.titlecad-1 p{
+    margin: 0;
+}
+
+.Img2cad-1{
+    display: flex;
+}
+
+.BottomStatus{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pricecad-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricecad-1 p{
+    margin: 0;
+}
+
+.ratingcad-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ratingcad-1 p{
+    margin: 0;
+}
+
+.informationcad-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Img3cad-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Img3cad-1 p{
+    margin: 0;
+}
+
+.informationcad-1 p{    
+    margin: 0;
+}
+
+.label{
+    border: solid;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 2px;
+    border-color: #52057B1A;
+    background: #52057B1A;
+    color: #52057B;
+    font: icon;
+    font-size: 14px;
+}
+
+.titlecad-1 p{
+    font: icon;
+    font-size: 14px;
+}
+
+.pricecad-1 p{
+    font: icon;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ratingcad-1 p{
+    font: icon;
+    font-size: 18px;
+}
+
+.informationcad-1 p{
+    font: icon;
+    color: #828282;
+    font-size: 14px;
+}
+
+.cardTop{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.Product10{
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.TopTitleLIne{
+    font: icon;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cardsBottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.contentcad-1-2{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.banner10{
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner10  img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.BstCard-1{
+    width: 259px;
+    height: 330px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #E2E2E2;
+}
+
+.Img1BstCard-1{
+    width: 100%;
+    height: 201px;
+}
+
+.Img1bst{
+    position: relative;
+}
+
+.Img2bst{
+    position: absolute;
+    top: 130px;
+    left: 90px;
+}
+
+.NameShop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.NameShop p{
+    margin: 0;
+    font: icon;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Verification{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font: icon;
+    color: #4364F7;
+    font-size: 14px;
+}
+
+.Verification p{
+    margin: 0;
+}
+
+.ImgVer{
+    display: flex;
+}
+
+.contentFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottomfirsthaf{
+    text-align: center;
+    font: icon;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.topfirsthaf{
+    font: icon;
+    color: #828282;
+}
+
+.BestShopText{
+    font: icon;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.bestCards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.BestShop{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.ShopBest{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.MaincontentBstCard-1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contentcad-1-2-2{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.FinalContent{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 50px;
+}
+
+.Vector9{
+    border: 1px solid;
+    border-color: #E2E2E2;
+}
+
+.FinalText{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.FText{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.FText h2{
+    font: icon;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.FText p{
+    font: icon;
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.FinalBtn{
+    border: solid;
+    display: flex;
+    width: 128px;
+    height: 42px;
+    border-radius: 8px;
+    border-color: #52057B;
+    background: #52057B;
+    color: white;
+    font: icon;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Brands{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.Brands h2{
+    font: icon;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.FinalContentText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.FinalCard-1 , .FinalCard-2 , .FinalCard-3 , .FinalCard-4 , .FinalCard-5 , .FinalCard-6 , .FinalCard-7 , .FinalCard-8{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+}
+
+.FinalCard-1 h2  , .FinalCard-2 h2, .FinalCard-3 h2, .FinalCard-4 h2 , .FinalCard-5 h2, .FinalCard-6 h2, .FinalCard-7 h2 , .FinalCard-8 h2{
+    font: icon;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.FashionText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.FashionText p{
+    font: icon;
+    font-size: 16px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.Peyment{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.Peyment h2{
+    font: icon;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Finalimgaes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SlabsShopFinal{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.SlabShopText{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.SlabShopText h2{
+    font: icon;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.SlabShopText p{
+    font: icon;
+}
+
+.SlabShopText-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.SlabShopText-2 h2{
+    font: icon;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.SlabShopText-2 p{
+    font: icon;
+}
+
+.BoldText{
+    font: icon;
+    font-size: 17px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.lastText{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.LastLeft{
+    font: icon;
+}
+
+.LastRight{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    font: icon;
+}
